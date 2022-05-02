@@ -65,8 +65,10 @@ main h1 {
 /*Specific Main*/
 main > section.main {
     display: grid;
-    
+    grid-template-columns: auto auto auto;
+    gap: 4rem;
 }
+
 
 
 
