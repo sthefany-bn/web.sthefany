@@ -92,7 +92,7 @@ footer {
 }
 
 /*CADASTRO*/
-main > section.auth {
+main > section.cadst {
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -100,39 +100,39 @@ main > section.auth {
     justify-content: center;
 }
 
-main > section.auth > form {
+main > section.cadst > form {
     background-color: var(--white);
     border-radius: 1rem;
     padding: 3rem;
 }
 
-main > section.auth > form > aside > img {
-    height: 4rem;
+main > section.cadst > form > aside > img {
+    height: 4.5rem;
     display: block;
     margin: auto;
     margin-bottom: 1.4rem;
 }
 
-main > section.auth > form > div {
+main > section.cadst > form > div {
     background-color: var(--gray);
     display: flex;
     margin: 0.5rem 0;
 }
 
-main > section.auth > form > div > input {
+main > section.cadst > form > div > input {
     width: 100%;
     font-size: 0.9rem;
     border: 0;
     background-color: transparent;   
 }
 
-main > section.auth > form > p > a {
+main > section.cadst > form > p > a {
     text-decoration: none;
     color: var(--black);
     font-weight: 500;
 }
 
-main > section.auth > form > p > button {
+main > section.cadst > form > p > button {
     background-color: var(--third);
     color: var(--white);
     padding: 0.6rem;
